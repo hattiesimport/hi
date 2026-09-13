@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hattie's Import | Wholesale & Retail</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= LOADER ================= -->
+
+    <div class="loader" id="loader">
+        <div class="loader-logo">
+            WELCOME<span>♥</span>
+        </div>
+    </div>
+
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <div class="logo-icon">
+                    <img src="images/photo_2026-09-13_14-53-50.jpg">
+                </div>
+
+                <div>
+                    <h2>HATTIE'S</h2>
+                    <span>IMPORT</span>
+                </div>
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <nav class="navbar" id="navbar">
+
+                <a href="#home">Home</a>
+
+                <a href="#categories">Categories</a>
+
+                <a href="#products">Shop</a>
+
+                <a href="#preorder">Pre-Order</a>
+
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+
+            <!-- HEADER ACTIONS -->
+
+            <div class="header-actions">
+
+                <!-- Search -->
+
+                <div class="search-box">
+
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <input
+                        type="text"
+                        id="searchInput"
+                        placeholder="Search products..."
+                    >
+
+                </div>
+
+
+                <!-- Wishlist -->
+
+                <button class="icon-btn wishlist-btn" id="wishlistBtn">
+
+                    <i class="fa-regular fa-heart"></i>
+
+                    <span id="wishlistCount">0</span>
+
+                </button>
+
+
+                <!-- Cart -->
+
+                <button class="icon-btn cart-btn" id="cartBtn">
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    <span id="cartCount">0</span>
+
+                </button>
+
+
+                <!-- Mobile Menu -->
+
+                <button class="menu-btn" id="menuBtn">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <span class="hero-small">
+                ✨ WHOLESALE & RETAIL ✨
+            </span>
+
+            <h1>
+                Shop Beautiful.
+                <span>Live Beautiful.</span>
+            </h1>
+
+            <p>
+                Discover carefully selected products at amazing prices.
+                Your satisfaction is always our priority.
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn primary-btn shine-btn">
+
+                    SHOP NOW
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+
+                <a href="#preorder" class="btn outline-btn">
+
+                    PRE-ORDER
+
+                    <i class="fa-solid fa-box"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-stats">
+
+                <div>
+
+                    <h3>Quality</h3>
+
+                    <span>Products</span>
+
+                </div>
+
+
+                <div>
+
+                    <h3>Wholesale</h3>
+
+                    <span>& Retail</span>
+
+                </div>
+
+
+                <div>
+
+                    <h3>Friendly</h3>
+
+                    <span>Support</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="hero-image">
+
+            <div class="hero-circle"></div>
+
+            <div class="floating-card card-one">
+                ✨ Quality Products
+            </div>
+
+            <div class="floating-card card-two">
+                💕 Best Prices
+            </div>
+
+            <img
+                src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?auto=format&fit=crop&w=900&q=80"
+                alt="Hattie's Import Products"
+            >
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CATEGORIES ================= -->
+
+<section class="categories section" id="categories">
+
+    <div class="section-heading reveal">
+
+        <span>EXPLORE OUR STORE</span>
+
+        <h2>Shop By Category</h2>
+
+        <p>
+            Find amazing products carefully selected for you.
+        </p>
+
+    </div>
+
+
+    <!-- CATEGORY GRID -->
+    <div class="category-grid">
+
+
+        <!-- FASHION -->
+        <div class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1523779917675-b6ed3a42a561?auto=format&fit=crop&w=700&q=80"
+                    alt="Fashion"
+                >
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Fashion</h3>
+
+                <p>Beautiful fashion collections.</p>
+
+                <button onclick="filterProducts('Fashion')">
+                    Explore
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- CLOTHING -->
+        <div class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80"
+                    alt="Clothing"
+                >
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Clothing</h3>
+
+                <p>Trendy and stylish outfits.</p>
+
+                <button onclick="filterProducts('Clothing')">
+                    Explore
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- BEAUTY -->
+        <div class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1547887538-e3a2f32cb1cc?auto=format&fit=crop&w=700&q=80"
+                    alt="Beauty"
+                >
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Beauty</h3>
+
+                <p>Products to make you shine.</p>
+
+                <button onclick="filterProducts('Beauty')">
+                    Explore
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- ACCESSORIES -->
+        <div class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1617038220319-276d3cfab638?auto=format&fit=crop&w=700&q=80"
+                    alt="Accessories"
+                >
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Accessories</h3>
+
+                <p>Complete your perfect look.</p>
+
+                <button onclick="filterProducts('Accessories')">
+                    Explore
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- HOME & HOUSEHOLD -->
+        <div class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=700&q=80"
+                    alt="Home and Household"
+                >
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Home & Household</h3>
+
+                <p>Products to decorate your household.</p>
+
+                <button onclick="filterProducts('Home & Household')">
+                    Explore
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- HOME APPLIANCES -->
+        <div class="category-card reveal">
+
+            <div class="category-image">
+
+                <img
+                    src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
+                    alt="Home Appliances"
+                >
+
+            </div>
+
+            <div class="category-content">
+
+                <h3>Home Appliances</h3>
+
+                <p>Useful appliances for your home.</p>
+
+                <button onclick="filterProducts('Home Appliances')">
+                    Explore
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <!-- END CATEGORY GRID -->
+
+
+</section>
+
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products section" id="products">
+
+        <div class="section-heading reveal">
+
+            <span>OUR COLLECTION</span>
+
+            <h2>Featured Products</h2>
+
+            <p>
+                Explore our latest and most popular products.
+            </p>
+
+        </div>
+
+
+
+        <!-- FILTER BUTTONS -->
+
+        <div class="filter-buttons reveal">
+
+            <button class="filter-btn active" data-filter="All">
+                All
+            </button>
+
+            <button class="filter-btn" data-filter="Fashion">
+                Fashion
+            </button>
+
+            <button class="filter-btn" data-filter="Clothing">
+                Clothing
+            </button>
+
+            <button class="filter-btn" data-filter="Beauty">
+                Beauty
+            </button>
+
+            <button class="filter-btn" data-filter="Accessories">
+                Accessories
+            </button>
+
+            <button class="filter-btn" data-filter="Home & Househhold">
+                Home & Household
+            </button>
+
+             <button class="filter-btn" data-filter="Home Appliances">
+                Home Appliances
+            </button>
+          
+
+        </div>
+
+
+
+        <!-- PRODUCT GRID -->
+
+        <div class="product-grid" id="productGrid">
+
+            <!-- Products generated with JavaScript -->
+
+        </div>
+
+
+        <div class="no-results" id="noResults">
+
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <h3>No products found</h3>
+
+            <p>Try searching for something else.</p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PRE ORDER ================= -->
+
+    <section class="preorder section" id="preorder">
+
+        <div class="preorder-content reveal">
+
+            <span class="preorder-small">
+
+                <i class="fa-solid fa-box"></i>
+
+                SPECIAL SERVICE
+
+            </span>
+
+
+            <h2 class="preorder-title">
+
+                WE DEAL IN
+
+                <span>PRE-ORDER</span>
+
+            </h2>
+
+
+            <p>
+
+                Get the products you want at affordable prices.
+
+                Send us the product you are looking for and let's help you
+                get it through our pre-order service.
+
+            </p>
+
+
+            <a
+                href="https://wa.me/233542977739?text=Hello%20Hattie's%20Import!%20I%20would%20like%20to%20make%20a%20pre-order."
+                target="_blank"
+                class="btn preorder-btn"
+            >
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                PRE-ORDER NOW
+
+            </a>
+
+        </div>
+
+
+        <div class="preorder-decoration decoration-one"></div>
+
+        <div class="preorder-decoration decoration-two"></div>
+
+    </section>
+
+
+
+    <!-- ================= WHY SHOP ================= -->
+
+    <section class="why-shop section">
+
+        <div class="section-heading reveal">
+
+            <span>WHY CHOOSE US</span>
+
+            <h2>Why Shop With Hattie's Import?</h2>
+
+            <p>
+                We are committed to giving you an amazing shopping experience.
+            </p>
+
+        </div>
+
+
+        <div class="features-grid">
+
+
+            <div class="feature-card reveal">
+
+                <div class="feature-icon">
+
+                    👑
+
+                </div>
+
+                <h3>Wholesale & Retail</h3>
+
+                <p>
+                    Great prices for everyone.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card reveal">
+
+                <div class="feature-icon">
+
+                    📦
+
+                </div>
+
+                <h3>Pre-Order Available</h3>
+
+                <p>
+                    Get the products you want.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card reveal">
+
+                <div class="feature-icon">
+
+                    ⭐
+
+                </div>
+
+                <h3>Quality Products</h3>
+
+                <p>
+                    Carefully selected products.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card reveal">
+
+                <div class="feature-icon">
+
+                    💬
+
+                </div>
+
+                <h3>Friendly Support</h3>
+
+                <p>
+                    We're here to help.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section" id="contact">
+
+        <div class="contact-container">
+
+
+            <div class="contact-info reveal">
+
+                <span>GET IN TOUCH</span>
+
+                <h2>Let's Connect</h2>
+
+                <p>
+                    Have a question or looking for a particular product?
+                    Contact Hattie's Import today.
+                </p>
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon">
+
+                        <i class="fa-solid fa-location-dot"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h4>Location</h4>
+
+                        <p>UCC Campus</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon whatsapp-icon">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h4>WhatsApp</h4>
+
+                        <a
+                            href="https://wa.me/233542977739"
+                            target="_blank"
+                        >
+
+                            0542977739
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="contact-item">
+
+                    <div class="contact-icon snapchat-icon">
+
+                        <i class="fa-brands fa-snapchat"></i>
+
+                    </div>
+
+                    <div>
+
+                        <h4>Snapchat</h4>
+
+                        <p>Youngsoul2025</p>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="social-links">
+
+                    <a
+                        href="https://wa.me/233542977739"
+                        target="_blank"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+
+                    <a href="https://snapchat.com/t/9sJfTvwh">
+
+                        <i class="fa-brands fa-snapchat"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- CONTACT IMAGE -->
+
+            <div class="contact-image reveal">
+
+                <img
+                    src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80"
+                    alt="Shopping"
+                >
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-container">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-column footer-brand">
+
+                <div class="footer-logo">
+
+                    <div class="logo-icon">
+
+
+
+                    </div>
+
+
+                    <div>
+
+                        <h2>Hattie's Import</h2>
+
+                        <span>WHOLESALE & RETAIL</span>
+
+                    </div>
+
+                </div>
+
+
+                <p>
+
+                    Your Satisfaction, Our Priority.
+
+                </p>
+
+
+                <div class="footer-social">
+
+                    <a
+                        href="https://wa.me/233542977739"
+                        target="_blank"
+                    >
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+
+                    <a href="https://snapchat.com/t/9sJfTvwh">
+
+                        <i class="fa-brands fa-snapchat"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="footer-column">
+
+                <h3>Quick Links</h3>
+
+                <a href="#home">Home</a>
+
+                <a href="#categories">Categories</a>
+
+                <a href="#products">Shop</a>
+
+                <a href="#preorder">Pre-Order</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+
+            <!-- CATEGORIES -->
+
+            <div class="footer-column">
+
+                <h3>Categories</h3>
+
+                <a href="#products">Fashion</a>
+
+                <a href="#products">Clothing</a>
+
+                <a href="#products">Beauty</a>
+
+                <a href="#products">Accessories</a>
+
+            </div>
+
+
+
+            <!-- CONTACT -->
+
+            <div class="footer-column">
+
+                <h3>Contact</h3>
+
+                <p>
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    UCC Campus
+
+                </p>
+
+
+                <a
+                    href="https://wa.me/233542977739"
+                    target="_blank"
+                >
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    0542977739
+
+                </a>
+
+
+                <p>
+
+                    <i class="fa-brands fa-snapchat"></i>
+
+                    Youngsoul2025
+
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <div class="footer-bottom">
+
+            <p>
+
+                © 2026 Hattie's Import. All Rights Reserved.
+
+            </p>
+
+
+            <p>
+
+                Designed with
+
+                <i class="fa-solid fa-heart"></i>
+
+                for Hattie's Import
+
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- ================= CART SIDEBAR ================= -->
+
+    <div class="cart-sidebar" id="cartSidebar">
+
+
+        <div class="cart-header">
+
+            <h2>
+
+                <i class="fa-solid fa-bag-shopping"></i>
+
+                Your Cart
+
+            </h2>
+
+
+            <button id="closeCart">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+
+            <!-- Cart Items -->
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+
+                <span>Total</span>
+
+                <strong id="cartTotal">GH₵0.00</strong>
+
+            </div>
+
+
+            <button
+                class="whatsapp-order"
+                id="whatsappOrder"
+            >
+
+                <i class="fa-brands fa-whatsapp"></i>
+
+                ORDER VIA WHATSAPP
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- CART OVERLAY -->
+
+    <div class="overlay" id="overlay"></div>
+
+
+
+    <!-- ================= PRODUCT MODAL ================= -->
+
+    <div class="product-modal" id="productModal">
+
+        <div class="modal-content">
+
+
+            <button class="close-modal" id="closeModal">
+
+                <i class="fa-solid fa-xmark"></i>
+
+            </button>
+
+
+            <div class="modal-image">
+
+                <img id="modalImage" src="" alt="Product">
+
+            </div>
+
+
+            <div class="modal-info">
+
+                <span id="modalCategory"></span>
+
+                <h2 id="modalName"></h2>
+
+                <h3 id="modalPrice"></h3>
+
+                <p id="modalDescription"></p>
+
+
+                <!-- QUANTITY -->
+
+                <div class="quantity-box">
+
+                    <span>Quantity:</span>
+
+
+                    <div class="quantity-selector">
+
+                        <button id="decreaseQty">
+
+                            -
+
+                        </button>
+
+
+                        <span id="quantity">1</span>
+
+
+                        <button id="increaseQty">
+
+                            +
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <button
+                    class="btn primary-btn modal-cart-btn"
+                    id="modalAddCart"
+                >
+
+                    <i class="fa-solid fa-bag-shopping"></i>
+
+                    ADD TO CART
+
+                </button>
+
+
+                <button
+                    class="btn whatsapp-modal-btn"
+                    id="modalWhatsApp"
+                >
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                    ORDER ON WHATSAPP
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= WISHLIST MODAL ================= -->
+
+    <div class="wishlist-modal" id="wishlistModal">
+
+        <div class="wishlist-content">
+
+
+            <div class="wishlist-header">
+
+                <h2>
+
+                    <i class="fa-solid fa-heart"></i>
+
+                    My Wishlist
+
+                </h2>
+
+
+                <button id="closeWishlist">
+
+                    <i class="fa-solid fa-xmark"></i>
+
+                </button>
+
+            </div>
+
+
+            <div id="wishlistItems">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div class="toast" id="toast">
+
+        <i class="fa-solid fa-check"></i>
+
+        <span id="toastMessage">
+            Added to cart!
+        </span>
+
+    </div>
+
+
+
+    <!-- WHATSAPP FLOATING BUTTON -->
+
+    <a
+        href="https://wa.me/233542977739"
+        target="_blank"
+        class="floating-whatsapp"
+    >
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+        <span>Chat With Us</span>
+
+    </a>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
